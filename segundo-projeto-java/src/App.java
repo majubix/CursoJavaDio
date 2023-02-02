@@ -1,7 +1,4 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        
-        //pedindo base
+//pedindo base
 	String base = JOptionPane.showInputDialog("digite a base do triangulo:");
 	double baseD = Double.parseDouble(base);
 	//pedindo altura
@@ -12,7 +9,4 @@ public class App {
 	double resultado = (baseD*alturaD)/2;
 	JOptionPane.showMessageDialog(null, "resultado: "+resultado);
 
-}
-
-    }
 }
